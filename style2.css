@@ -1,14 +1,14 @@
 body {
   margin-bottom: 100px;
+  background-color: #e0e1dd;
 }
 
 header {
-  background-color: lightgray;
-  padding-bottom: 20px;
+  background-color: #778da9;
+  padding-bottom: 25px;
 }
 .wrapper {
-  padding-bottom: 1rem;
-  padding-left: 1rem;
+  padding: 1rem;
 }
 
 .nameJob {
@@ -20,7 +20,7 @@ header {
   position: relative;
   top: 35px;
   left: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .personalImage {
@@ -42,10 +42,20 @@ header {
   border-color: white;
 }
 
+.icons {
+  background-color: #415a77;
+  border-color: white;
+}
+
 .nav {
   font-family: "Montserrat", sans-serif;
   position: relative;
   bottom: 100px;
+}
+
+.aboutMeHeader {
+  background-color: #415a77;
+  color: white;
 }
 
 .aboutMe {
@@ -75,9 +85,19 @@ header {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.mb-3 {
+  border-style: solid;
+  border-color: #1b263b;
+  border-width: 2px;
+}
+
 .weatherImage {
   width: 300px;
   height: 200px;
+}
+
+.navbar {
+  background-color: #778da9;
 }
 
 @media (max-width: 767.98px) {

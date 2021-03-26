@@ -1,0 +1,81 @@
+header {
+  background-color: lightgray;
+  padding-bottom: 20px;
+}
+.wrapper {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.nameJob {
+  padding-left: 20px;
+}
+
+.inline {
+  display: inline-block;
+  position: relative;
+  top: 35px;
+  left: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.personalImage {
+  border-radius: 75px;
+  height: 150px;
+  width: 150px;
+}
+
+.resumeBtn {
+  float: right;
+  position: relative;
+  top: 55px;
+  right: 15px;
+}
+
+.nav {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  bottom: 100px;
+}
+
+.aboutMe {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 40px;
+}
+
+.btn {
+  border-radius: 50px;
+  margin: 0px 15px;
+}
+
+.featuredProj {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 25px;
+  justify-content: space-evenly;
+}
+
+.projectCards {
+  margin-top: 25px;
+}
+
+@media (max-width: 767.98px) {
+  .resumeBtn {
+    /* margin-top: 30px; */
+    float: none;
+    position: absolute;
+  }
+  .personalImage {
+    position: relative;
+    top: 15px;
+  }
+  .container {
+    margin-left: 10px;
+  }
+  .aboutMeCard {
+    margin-left: 15px;
+  }
+  .inline {
+    padding-bottom: 15px;
+  }
+}

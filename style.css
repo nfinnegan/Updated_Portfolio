@@ -130,6 +130,10 @@ a:hover {
   .inline {
     padding-bottom: 15px;
   }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
   .btnFormatting {
     display: flex;
     justify-content: space-evenly;

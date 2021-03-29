@@ -10,11 +10,11 @@ header {
 .wrapper {
   padding: 1rem;
 }
-
+/* PHOTO WRAPPED WITH NAME & JOB TO FORMAT */
 .nameJob {
   padding-left: 30px;
 }
-
+/* NAME & JOB TITLE IN HEADER WRAPPED, SO I CAN FORMAT TOGETHER */
 .inline {
   display: inline-block;
   position: relative;
@@ -24,12 +24,14 @@ header {
   color: white;
 }
 
+/* MAKING MY PERSONAL PHOTO AN AVATAR */
 .personalImage {
   border-radius: 75px;
   height: 150px;
   width: 150px;
 }
 
+/* RESUME BUTTON FORMATTING IN HEADER */
 .resumeBtn {
   float: right;
   position: relative;
@@ -43,6 +45,7 @@ header {
   color: white;
 }
 
+/* STYLING THE CONTACT ME ICONS TWITTER,LINKED,GITHUB, ETC */
 .icons {
   background-color: #415a77;
   border-color: white;
@@ -53,7 +56,7 @@ header {
   position: relative;
   bottom: 100px;
 }
-
+/* ABOUT ME SECTION STYLING/FORMATTING */
 .aboutMeHeader {
   background-color: #415a77;
   color: white;
@@ -69,11 +72,12 @@ header {
   margin: 0px 15px;
 }
 
+/* styling github repo and live application a tags to now show up as typical links */
 .appBtns {
   color: white;
   text-decoration: none;
 }
-
+/* styling on the actual buttons  */
 .btnColor {
   background-color: #1b263b;
 }
@@ -97,6 +101,7 @@ a:hover {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+/* styling all cards with a border */
 .mb-3 {
   border-style: solid;
   border-color: #1b263b;
